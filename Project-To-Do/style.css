@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+Display:wght@500&family=PT+Serif&family=Poppins&family=Red+Hat+Display:wght@300&family=Titillium+Web&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 100vh;
+  background: #e5e5e5;
+  background-image: url(https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+#table {
+  border: 2px #14213d solid;
+  width: 500px;
+  height: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  background: #fca311;
+  color: #14213d;
+}
+
+#add {
+  background: transparent;
+  border: none;
+  display: inline;
+}
+#add:hover {
+  background-color: aquamarine;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+#inputBox {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-self: center;
+  font-size: 20px;
+  background: #fca311;
+  color: #14213d;
+}
